@@ -12,7 +12,14 @@ const Navbar = () => {
           </Link>
         </div>
 
-        <div>right</div>
+        <div className="flex items-center gap-4">
+          <button className="border border-[#0087e1] px-3 py-2 rounded-lg font-medium hover:bg-[#0096E1]">
+            Sign in
+          </button>
+          <button className="bg-[#0096E1] px-3 py-2 rounded-lg font-medium hover:bg-[#007ce1]">
+            Sign up
+          </button>
+        </div>
       </nav>
     </div>
   );

@@ -1,5 +1,12 @@
-import Image from "next/image";
+import BookList from "@/components/BookList";
 
-export default function Home() {
-  return <div className="max-w-6xl mx-auto">Home Page</div>;
-}
+const Home = async () => {
+  return (
+    <div className="max-w-6xl mx-auto mt-10">
+      <h1 className="text-3xl font-bold mb-10">Welcome to eLibrary</h1>
+      <BookList />
+    </div>
+  );
+};
+
+export default Home;
